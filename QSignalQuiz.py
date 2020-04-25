@@ -6,15 +6,20 @@ import random
 def main():
 	''' main function for quizzing on QSignals for Ham Radio'''
 
-	qsignals=[['QRG', 'exact frequency'],
-			  ['QRL','busy'],
-			  ['QRM','interference'],
-  	  		  ['QRN','static'],
-		  	  ['QRO','increase power'],
-		  	  ['QRP','decrease power'],
-		  	  ['QRQ','send faster'],
-		  	  ['QRS','send slower'],
-		  	  ['QRT','stop sending']]
+	qsignals=[['QRA', 'name of station'],
+              ['QRB', 'distance from station'],
+              ['QRG', 'exact frequency'],
+              ['QRH', 'frequency variation'],
+              ['QRI', 'tone of transmission'],
+              ['QRK', 'readability'],
+			  ['QRL', 'busy'],
+			  ['QRM', 'interference'],
+  	  		  ['QRN', 'static'],
+		  	  ['QRO', 'increase power'],
+		  	  ['QRP', 'decrease power'],
+		  	  ['QRQ', 'send faster'],
+		  	  ['QRS', 'send slower'],
+		  	  ['QRT', 'stop sending']]
 
 	print('Welcome to the QSignal Quiz!')
 	print('')
