@@ -19,7 +19,28 @@ def main():
 		  	  ['QRP', 'decrease power'],
 		  	  ['QRQ', 'send faster'],
 		  	  ['QRS', 'send slower'],
-		  	  ['QRT', 'stop sending']]
+		  	  ['QRT', 'stop sending'],
+              ['QRU', 'anything for me?'],
+              ['QRV', 'ready'],
+              ['QRX', 'standby'],
+              ['QRZ', 'who is calling'],
+              ['QSA', 'strength of signal'],
+              ['QSB', 'signals fading'],
+              ['QSD', 'keying defective'],
+              ['QSK', 'can your hear me between your signals'],
+              ['QSM', 'repeat last telegram'],
+              ['QSN', 'did you hear me?'],
+              ['QSO', 'can you communicate'],
+              ['QSP', 'relay a message'],
+              ['QSS', 'working frequency'],
+              ['QSU', 'reply on this frequency'],
+              ['QSV', 'send a series of V'],
+              ['QSX', 'listen on...'],
+              ['QSY', 'change transmission frequency'],
+              ['QSZ', 'send each word more than once'],
+              ['QTC', 'how many telegrams'],
+              ['QTH', 'position'],
+              ['QTR', 'correct time']]
 
 	print('Welcome to the QSignal Quiz!')
 	print('')
